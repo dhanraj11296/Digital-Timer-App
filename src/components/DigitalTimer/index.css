@@ -1,0 +1,100 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+}
+.heading {
+  color: #0f172a;
+}
+.digitalTimerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timerDisplayContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+}
+.elapsedTimeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.elapsedTime {
+  color: #00d9f5;
+}
+.timerState {
+  color: #1e293b;
+}
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.timerControllerContainer {
+  display: flex;
+  align-items: center;
+}
+.timerControllerBtn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.timerControllerIcon {
+  width: 25px;
+  height: 25px;
+}
+.timerControllerLabel {
+  color: #1e293b;
+}
+.timerLimitControllerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.limitLabel {
+  color: #1e293b;
+}
+.timerLimitController {
+  display: flex;
+  align-items: center;
+}
+.limitControllerBtn {
+  color: #1e293b;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.limitLabelValueContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.limitValue {
+  text-align: center;
+  color: #1e293b;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+}
